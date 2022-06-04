@@ -1,0 +1,169 @@
+#title {
+  background-color: #ff4c68;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  padding-bottom: 15px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.brandname {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+  padding-bottom: 50px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.nav-item {
+  padding-right: 40px;
+}
+
+.btn {
+  margin-right: 15px;
+  margin-bottom: 13%;
+}
+
+.first-img {
+  transform: rotate(25deg);
+  height: 600px;
+  padding-left: 50px;
+  position: absolute;
+  right: 20%;
+}
+
+.fontawesome {
+  color: #ef8172;
+  font-size: 4rem;
+  padding: 30px;
+}
+
+.fontawesome:hover {
+  color: #ff4c68;
+}
+
+.features-h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+.features-para {
+  color: #8f8f8f;
+  width: 250px;
+  ;
+  margin: auto;
+  font-weight: bold;
+}
+
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1038px) {
+  .first-img{
+    transform: rotate(0);
+    position: static;
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+/* call to action */
+
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 5% 2%;
+  line-height: 1.5;
+}
+
+.cta-h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  padding-bottom: 35px;
+  margin: 0 8%;
+}
+
+.btn-action{
+  margin-bottom: 5%;
+}
+
+/* Footer */
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 5%;
+}
+
+.icons{
+  font-size: 1rem;
+  padding: 0px 12px 15px;
+}
